@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(41, 41, 41);
+}
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.add_product{
+    padding: 20px;
+    background: linear-gradient(181deg, #919191, transparent);
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 4px -6px 35px -17px rgb(255 255 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.add_product input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    outline: none;
+}
+
+
+
+.add_product button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.add_product button:hover{
+    transform: scale(1.1);
+    transition: .5s;   
+}
+
+.prductList{
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.prductList > div{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    min-height: 80vh;
+    background: linear-gradient(359deg, #565858, transparent);
+    box-shadow: 7px 4px 24px -13px rgb(255 255 255);
+    border-radius: 20px;
+}
+
+.prductList p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    box-shadow: 7px 4px 32px -13px rgb(255 255 255);
+    background: #00000047;
+    margin: 20px;
+    padding: 10px;
+
+}
+.prductList h3{
+    color: #9dc3c7;
+    position: relative;
+    left: -284px;
+}
+
+.prductList img{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 4px 32px -13px rgb(255 255 255);
+}
+
+.prductList span{
+    font-size: 32px;
+    color: #d97a7a;
+    position: relative;
+    right: -293px;
+    top: -25px;
+}
+.prductList button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background: #999;
+    cursor: pointer;
+}
+
+.prductList button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.dafaultText{
+    color: #fff;
+}
