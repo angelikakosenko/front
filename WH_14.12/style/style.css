@@ -1,0 +1,65 @@
+body{
+    background-color: #000;
+}
+
+.add_products-form{
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(96, 98, 100);
+    box-shadow: 0 5px 25px red;
+    border-radius: 25px;
+
+}
+
+.id-input{
+    width: 80%;
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(56, 55, 55);
+    color: aliceblue;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.send-id{
+    width: 85px;
+    height: 45px;
+    background-color: rgb(56, 55, 55);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.send-id:hover{
+    transition: .5s;
+    background-color: rgb(70, 69, 69);
+}
+
+.productsCard{
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(96, 98, 100);
+    box-shadow: 0 5px 25px red;
+    border-radius: 25px;
+}
